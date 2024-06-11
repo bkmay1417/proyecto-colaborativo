@@ -20,7 +20,6 @@ graph TD;
 
     subgraph Python
         Python --> Numpy
-        
         Python --> Matplotlib
         Python --> Seaborn
                 

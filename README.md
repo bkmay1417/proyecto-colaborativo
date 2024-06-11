@@ -29,7 +29,6 @@ graph TD;
         DataEngineering[Data Engineering] --> Hadoop
         DataEngineering --> Spark
         DataEngineering --> Zeppelin
-        DataEngineering --> HBase 
         DataEngineering --> Hive
 
     end

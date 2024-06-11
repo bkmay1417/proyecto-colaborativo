@@ -5,7 +5,7 @@ hola que tal
 
 ```mermaid
 graph TD;
-    subgraph prueva mi grafico 
+    subgraph Ciencia de Datos
         DataScience[Data Science] --> DataAnalysis[Data Analysis]
         DataScience --> MachineLearning[Machine Learning]
     end
@@ -13,17 +13,28 @@ graph TD;
     subgraph Análisis de Datos
         DataAnalysis --> Excel
         DataAnalysis --> SQL
-        
+        DataAnalysis --> PowerBI
+        DataAnalysis --> Tableau
 
     end
 
     subgraph Machine Learning
         MachineLearning --> Python
-
-        Python --> ScikitLearn[Scikit-learn]
-       
+        Python --> Numpy
+        
+        Python --> Matplotlib
+        Python --> Seaborn
                 
-    ends
+    end
+
+    subgraph Ingeniería de Datos
+        DataEngineering[Data Engineering] --> Hadoop
+        DataEngineering --> Spark
+        DataEngineering --> Zeppelin
+        DataEngineering --> HBase 
+        DataEngineering --> Hive
+
+    end
 
     DataScience --> DataEngineering
 ```

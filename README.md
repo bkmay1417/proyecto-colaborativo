@@ -1,5 +1,6 @@
 "# proyecto-colaborativo" 
 Hola soy Jesus
+<<<<<<< HEAD
 hola que tal 
 
 
@@ -36,3 +37,6 @@ graph TD;
     DataScience --> DataEngineering
 ```
 
+=======
+hola soy michael
+>>>>>>> b5dc39668e383f576ead3cbe0564f34520626549

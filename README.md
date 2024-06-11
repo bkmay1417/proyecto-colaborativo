@@ -7,7 +7,7 @@ hola que tal
 graph TD;
     subgraph Ciencia de Datos
         DataScience[Data Science] --> DataAnalysis[Data Analysis]
-        DataScience --> MachineLearning[Machine Learning]
+        DataScience --> Python[Python]
     end
 
     subgraph Análisis de Datos
@@ -18,8 +18,7 @@ graph TD;
 
     end
 
-    subgraph Machine Learning
-        MachineLearning --> Python
+    subgraph Python
         Python --> Numpy
         
         Python --> Matplotlib
